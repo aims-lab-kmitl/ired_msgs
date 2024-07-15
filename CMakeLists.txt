@@ -14,9 +14,9 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   IMU.msg
-  Mode.msg
   Motor.msg
-  PID.msg
+  PIDData.msg
+  PIDTuning.msg
 )
 
 ## Generate added messages and services with any dependencies listed here
